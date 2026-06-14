@@ -1,4 +1,4 @@
-const cores: Record<string, string> = {
+const cores: { [key: string]: string } = {
   fire: '#f97316',
   water: '#3b82f6',
   grass: '#22c55e',
